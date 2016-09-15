@@ -12,17 +12,33 @@
   <link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
-  <div id="app"></div>
-  <h1>Joe's Website</h1>
-  <form>
-    Name:<br>
-    <input type="text" name="Name"><br>
-    Email:<br>
-    <input type="email" name="email"><br>
-    Phone Number:<br>
-    <input type="tel" name="clienttel"><br>
-    Message:<br>
-    <textarea name="message" rows="10" cols="30"></textarea>
-  </form>
+  <div class="container">
+    <h1>
+      <img class="edible-balloon-logo" src="EB-Logo-Full.png">
+    </h1>
+    <div class="row">
+      <div class="col-xs-12">
+        <form>
+          <div class="form-group">
+            <label for="clientFullName">First and Last Name</label>
+            <input type="text" class="form-control" id="clientFullName" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="clientEmail">Email Address</label>
+            <input type="text" class="form-control" id="clientEmail" placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <label for="clientPhoneNumber">Phone Number</label>
+            <input type="text" class="form-control" id="clientPhoneNumber" placeholder="Your Phone Number">
+          </div>
+          <div class="form-group">
+            <label for="clientMessage">Message</label>
+            <textarea class="form-control" id="clientMessage" rows="6"></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

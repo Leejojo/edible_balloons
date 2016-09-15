@@ -1,6 +1,16 @@
+$enable-flex: true;
 @import 'bootstrap';
 
 body {
-  background-color: green;
-  color: white;
+  background-color: #494949;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.edible-balloon-logo {
+  width: 100%;
 }
